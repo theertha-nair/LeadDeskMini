@@ -2,7 +2,7 @@
 
 A small full-stack lead-capture product built for the Digital Heroes Full Stack Development qualification task. It has a public landing page with a validated lead form, and a password-protected admin dashboard for triaging incoming leads.
 
-**Live app:**lead-desk-mini-beige.vercel.app
+**Live app:** lead-desk-mini-beige.vercel.app
 **Admin dashboard:** lead-desk-mini-beige.vercel.app/admin
 
 ---
