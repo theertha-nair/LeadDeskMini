@@ -157,7 +157,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Footer ──────────────────────────────────────────── */}
-      <footer className="relative z-10 border-t border-white/[0.05] py-8 px-4">
+       <footer className="relative z-10 border-t border-white/[0.05] py-8 px-4">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
@@ -167,17 +167,6 @@ export default function HomePage() {
             </div>
             <span className="text-sm font-medium text-slate-400">LeadDesk Mini</span>
           </div>
-          <p className="text-sm text-slate-500 text-center">
-            Built for{" "}
-            <Link
-              href="https://digitalheroesco.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-400 hover:text-indigo-300 transition-colors duration-200 underline underline-offset-2 decoration-indigo-400/40 hover:decoration-indigo-300"
-            >
-              Digital Heroes Training Task
-            </Link>
-          </p>
           <p className="text-xs text-slate-600">© {new Date().getFullYear()} LeadDesk Mini. All rights reserved.</p>
         </div>
       </footer>
